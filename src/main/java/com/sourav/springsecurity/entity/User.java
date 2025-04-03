@@ -24,4 +24,5 @@ public class User {
     )
     @JoinColumn(name = "user_id") // Define the join column in the Role table
     private Set<Role> roles;
+    //this is staging awesome
 }
